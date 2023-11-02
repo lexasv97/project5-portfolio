@@ -44,7 +44,7 @@ const Projects = () => {
                         <span>Developed game using pure HTML5/CSS3/JAVASCRIPT(ES6) with collision effects and complex logic.</span>
                         <span className='flex justify-evenly py-4 text-pink'>
                             <Link className='border-b-2 hover:text-green hover:border-green' to="https://github.com/lexasv97/project-cannon-battle">GitHub</Link>
-                            <Link className='border-b-2 hover:text-green hover:border-green' to="https://lexasv97.github.io/project-cannon-battle">GitHub</Link>
+                            <Link className='border-b-2 hover:text-green hover:border-green' to="https://lexasv97.github.io/project-cannon-battle">Game</Link>
                             </span>
                     </div>
                 </div>

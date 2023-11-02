@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="">
             <span className="text-3xl font-semibold text-purple py-2 uppercase">Logo</span>
-            <p className="text-[18px] my-4">I speak English, Russian</p>
+            <p className="text-[18px] my-4">English, Russian</p>
         </div>
         <div>
             <h2 className="text-[22px] font-semibold text-purple py-2 uppercase">Services</h2>
@@ -36,7 +36,7 @@ const Footer = () => {
             <Link className="text-white hover:text-purple  transition-all duration-150 ease-in-out" to="https://twitter.com/ASeletckii">
                 <FaTwitter className="text-[28px]" />
             </Link>
-            <Link className="text-white hover:text-purple  transition-all duration-150 ease-in-out" to="">
+            <Link className="text-white hover:text-purple  transition-all duration-150 ease-in-out" to="https://www.facebook.com/lexasv97/">
                 <BsFacebook className="text-[28px]" />
             </Link>
         </div>
