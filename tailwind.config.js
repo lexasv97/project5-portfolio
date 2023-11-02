@@ -12,7 +12,15 @@ export default {
     "./src/components/Projects.jsx"
   ],
   theme: {
-    extend: {},
+    colors: {
+      'champ': "#F9DEC9",
+      'purple': "#210124",
+      'pink': "#F45866",
+      'green': "#048A81",
+      'brown': "#896A67",
+      'white': "#ffffff",
+      'black': "#000000"
+    },
   },
   plugins: [],
 }
