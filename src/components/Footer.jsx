@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer className="bg-pink lg:px-48 px-4 py-20">
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
-        <div className="mb-4 md:mb-0">
+        <div className="">
             <span className="text-3xl font-semibold text-purple py-2 uppercase">Logo</span>
-            <p className="text-[18px] my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero praesentium cupiditate, optio id nesciunt quia debitis nostrum blanditiis aperiam tempora!</p>
+            <p className="text-[18px] my-4">I speak English, Russian</p>
         </div>
         <div>
             <h2 className="text-[22px] font-semibold text-purple py-2 uppercase">Services</h2>
@@ -21,8 +21,8 @@ const Footer = () => {
         </div>
         <div className="mb-4 md:mb-0">
             <h2 className="text-[22px] font-semibold text-purple py-2 uppercase">Contact</h2>
-            <p className="text-[16px] my-4">Email: email@gmail.com</p>
-            <p className="text-[16px] my-4">Phone: +1 113-456-7890 </p>
+            <p className="text-[16px] my-4">Email: aleksei.s.webdev@gmail.com</p>
+            <p className="text-[16px] my-4">Phone: +1 206-795-4267</p>
         </div>
        <div>
          <h2 className="text-[22px] font-semibold text-purple py-2 uppercase">Follow Me</h2>
