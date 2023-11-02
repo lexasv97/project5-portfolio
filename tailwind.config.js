@@ -6,7 +6,7 @@ export default {
     "./src/components/About.jsx",
     "./src/components/Banner.jsx",
     "./src/components/Contacts.jsx",
-    "./src/components/Education.jsx",
+    "./src/components/Skills.jsx",
     "./src/components/Footer.jsx",
     "./src/components/Navbar.jsx",
     "./src/components/Projects.jsx"
