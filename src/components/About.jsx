@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ Excellent technical, communication and interpersonal skills.</p>
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div className="flex space-x-2">
-                            <button className="neno-button shadow-xl bg-pink hover:shadow-fuchsia-800/50 border-2 hover:bg-green border-purple rounded-lg py-4 px-8 uppercase relative overflow-hidden">Resume</button>
+                            <Link to="https://drive.google.com/file/d/1LPxW9gDUb9Le1JrPwSXsYKE-9QLcslz8/view?usp=sharing" className="neno-button shadow-xl bg-pink hover:shadow-fuchsia-800/50 border-2 hover:bg-green border-purple rounded-lg py-4 px-8 uppercase relative overflow-hidden">My resume</Link>
                         </div>
                     </div>
                 </div>

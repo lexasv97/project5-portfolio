@@ -22,28 +22,24 @@ const Projects = () => {
             <div className='pt-20 text-2xl'>
                 <div>
                     <div className='flex flex-col'>
-                        <span>MERN developed marketplace with token auth, integrated Google Maps, Google places APIs and Tailwind styled.</span>
-                        <span className='flex justify-evenly py-4 text-pink'>
-                            <Link className='border-b-2 hover:text-green hover:border-green' to="https://github.com/lexasv97/project3-client">GitHub - front</Link>
-                            <Link className='border-b-2 hover:text-green hover:border-green' to="https://github.com/lexasv97/project3-server">GitHub - back</Link>
+                        <span>1) Local: MERN developed marketplace with token auth, integrated Google Maps, Google places APIs and Tailwind styled.</span>
+                        <span className='flex justify-center py-4 text-pink'>
                             <Link className='border-b-2 hover:text-green hover:border-green' to="https://local-services.netlify.app/">Netlify</Link>
                             </span>
                     </div>
                 </div>
                 <div>
                     <div className='flex flex-col'>
-                        <span>Website with authorization, 3 Models MongoDB, CRUD, integrated Stripe API and AI image generation API.</span>
-                        <span className='flex justify-evenly py-4 text-pink'>
-                            <Link className='border-b-2 hover:text-green hover:border-green' to="https://github.com/lexasv97/project2">GitHub</Link>
+                        <span>2) WaToDoo: Website with authorization, 3 Models MongoDB, CRUD, integrated Stripe API and AI image generation API.</span>
+                        <span className='flex justify-center py-4 text-pink'>
                             <Link className='border-b-2 hover:text-green hover:border-green' to="https://project2-watodoo.adaptable.app/">Adaptable</Link>
                             </span>
                     </div>
                 </div>
                 <div>
                     <div className='flex flex-col'>
-                        <span>Developed game using pure HTML5/CSS3/JAVASCRIPT(ES6) with collision effects and complex logic.</span>
-                        <span className='flex justify-evenly py-4 text-pink'>
-                            <Link className='border-b-2 hover:text-green hover:border-green' to="https://github.com/lexasv97/project-cannon-battle">GitHub</Link>
+                        <span>3) Cannon-battle: Developed game using pure HTML5/CSS3/JAVASCRIPT(ES6) with collision events and complex logic.</span>
+                        <span className='flex justify-center py-4 text-pink'>
                             <Link className='border-b-2 hover:text-green hover:border-green' to="https://lexasv97.github.io/project-cannon-battle">Game</Link>
                             </span>
                     </div>
