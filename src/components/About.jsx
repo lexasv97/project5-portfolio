@@ -14,7 +14,7 @@ Used to write testable, human-readable code adhering to good practices.
 
 A highly motivated and result-driven developer looking for opportunities that will provide me both personal and professional growth.
 
-I have the ability to work in a fast, agile and nimble environment with frequent change.
+I have the ability to work in a fast, agile environment with frequent change.
 
 Excellent technical, communication and interpersonal skills.</p>
                 <div className="flex mt-8 gap-2">
