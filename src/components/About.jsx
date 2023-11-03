@@ -12,7 +12,7 @@ Graduated tech university in Russia and bootcamp in Miami and ready for challeng
 
 Used to write testable, human-readable code adhering to good practices.
 
-A highly motivated and result-driven developer looking for opportunities that will provide me, both, personal and professional growth.
+A highly motivated and result-driven developer looking for opportunities that will provide me both personal and professional growth.
 
 I have the ability to work in a fast, agile and nimble environment with frequent change.
 
