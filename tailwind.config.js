@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/components/App.jsx",
+    "./src/App.jsx",
     "./src/components/About.jsx",
     "./src/components/Banner.jsx",
     "./src/components/Contacts.jsx",
