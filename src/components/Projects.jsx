@@ -22,7 +22,7 @@ const Projects = () => {
             <div className='pt-20 text-2xl'>
                 <div>
                     <div className='flex flex-col'>
-                        <span>1) Local: MERN developed marketplace with token auth, integrated Google Maps, Google places APIs and Tailwind styled.</span>
+                        <span>1) Local: MERN developed marketplace. JWT auth, integrated Google Maps, Google places APIs and tailwind styled.</span>
                         <span className='flex justify-center py-4 text-pink'>
                             <Link className='border-b-2 hover:text-green hover:border-green' to="https://local-services.netlify.app/">Netlify</Link>
                             </span>
@@ -30,7 +30,7 @@ const Projects = () => {
                 </div>
                 <div>
                     <div className='flex flex-col'>
-                        <span>2) WaToDoo: Website with authorization, 3 Models MongoDB, CRUD, integrated Stripe API and AI image generation API.</span>
+                        <span>2) WaToDoo: Front Handlebars - Back Express: 3 Models MongoDB, full CRUD, integrated Stripe API and AI image generation API.</span>
                         <span className='flex justify-center py-4 text-pink'>
                             <Link className='border-b-2 hover:text-green hover:border-green' to="https://project2-watodoo.adaptable.app/">Adaptable</Link>
                             </span>
