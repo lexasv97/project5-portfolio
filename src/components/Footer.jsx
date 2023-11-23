@@ -16,7 +16,7 @@ const Footer = () => {
                 <li className="my-2">Web Development</li>
                 <li className="my-2">Front end</li>
                 <li className="my-2">Back end</li>
-                <li className="my-2">E-commerce</li>
+                <li className="my-2">Software engineering</li>
             </ul>
         </div>
         <div className="mb-4 md:mb-0">
