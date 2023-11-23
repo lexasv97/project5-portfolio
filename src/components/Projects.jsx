@@ -30,7 +30,7 @@ const Projects = () => {
                 </div>
                 <div>
                     <div className='flex flex-col'>
-                        <span>2) WaToDoo: Front Handlebars - Back Express: 3 Models MongoDB, full CRUD, integrated Stripe API and AI image generation API.</span>
+                        <span>2) WaToDoo: Front Handlebars - Back Express: 3 Models MongoDB, full CRUD, integrated Stripe API and OpenAI image generation API.</span>
                         <span className='flex justify-center py-4 text-pink'>
                             <Link className='border-b-2 hover:text-green hover:border-green' to="https://project2-watodoo.adaptable.app/">Adaptable</Link>
                             </span>
