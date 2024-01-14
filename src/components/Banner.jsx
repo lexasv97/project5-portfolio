@@ -26,16 +26,16 @@ const Banner = () => {
                 <div className="flex mt-8 gap-2">
                     <div className="flex items-center justify-center">
                         <div data-aos="fade-up" className="flex space-x-2">
-                            <Link to="https://github.com/lexasv97" className="text-purple hover:text-pink rounded-full glow p-2">
+                            <Link to="https://github.com/lexasv97" className="text-purple hover:text-pink rounded-full glow p-2" target={'_blank'}>
                                 <AiFillGithub className="text-[28px]" />
                             </Link>
-                            <Link to="https://www.linkedin.com/in/aleksei-seletckii/" className="text-purple hover:text-pink rounded-full glow p-2">
+                            <Link to="https://www.linkedin.com/in/aleksei-seletckii/" className="text-purple hover:text-pink rounded-full glow p-2" target={'_blank'}>
                                 <FaLinkedinIn className="text-[28px]" />
                             </Link>
-                            <Link to="https://twitter.com/ASeletckii" className="text-purple hover:text-pink rounded-full glow p-2">
+                            <Link to="https://twitter.com/ASeletckii" className="text-purple hover:text-pink rounded-full glow p-2" target={'_blank'}>
                                 <FiTwitter className="text-[28px]" />
                             </Link>
-                            <Link to="https://www.facebook.com/lexasv97/" className="text-purple hover:text-pink rounded-full glow p-2">
+                            <Link to="https://www.facebook.com/lexasv97/" className="text-purple hover:text-pink rounded-full glow p-2" target={'_blank'}>
                                 <BsFacebook className="text-[28px]" />
                             </Link>
                         </div>

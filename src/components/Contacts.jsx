@@ -36,7 +36,7 @@ const Contacts = () => {
         <div className="lg:flex gap-9">
           <input
             name="name"
-            className="w-full lg:my-3 my-4 rounded-lg bg-slate-800 p-4 border-2 border-purple b_glow text-xl text-slate-500"
+            className="w-full shadow-md lg:my-3 my-4 rounded-lg bg-slate-800 p-4 border-2 border-purple b_glow text-xl text-slate-500"
             placeholder="Enter Your Name"
             type="text"
             onChange={(e) => setName(e.target.value)}
@@ -44,7 +44,7 @@ const Contacts = () => {
           />
           <input
             name="email"
-            className="w-full lg:my-3 my-4 rounded-lg bg-slate-800 p-4 border-2 border-purple b_glow text-xl text-slate-500"
+            className="w-full shadow-md lg:my-3 my-4 rounded-lg bg-slate-800 p-4 border-2 border-purple b_glow text-xl text-slate-500"
             placeholder="Enter Your Email"
             type="text"
             onChange={(e) => setEmail(e.target.value)}
@@ -53,8 +53,8 @@ const Contacts = () => {
         </div>
         <textarea
           name="text"
-          className="w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-purple b_glow text-xl text-slate-500"
-          placeholder="Write Your Massage..."
+          className="w-full shadow-md my-3 rounded-lg bg-slate-800 p-4 border-2 border-purple b_glow text-xl text-slate-500"
+          placeholder="Write your message..."
           cols="20"
           rows="10"
           onChange={(e) => setText(e.target.value)}
