@@ -69,7 +69,7 @@ export default function Skills() {
           {categories.map((cat) => {
             return (
               <div className="flex flex-col">
-                <h2 className="categories text-3xl pb-10 flex justify-center">{cat.category}</h2>
+                <h2 className="font-bold text-3xl pb-10 flex justify-center">{cat.category}</h2>
                 {
                   cat.skills.map((skill) => {
                     return (
@@ -82,7 +82,7 @@ export default function Skills() {
           })}
         </div>
         <div>
-          <h2 className="categories text-3xl pb-10 flex justify-center">{other.category}</h2>
+          <h2 className="font-bold text-3xl pb-10 flex justify-center">{other.category}</h2>
           <div className="flex justify-evenly px-40">
             {
               other.skills.map((skill) => {

@@ -10,10 +10,12 @@ function App() {
   return (
     <div className=''>
         <Banner />
+        <div className='montserrat'>
         <About />
         <Skills />
         <Projects />
         <Contacts />
+        </div>
     </div>
   )
 }

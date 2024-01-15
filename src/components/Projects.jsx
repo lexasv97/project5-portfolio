@@ -50,12 +50,12 @@ export default function Projects() {
         <div className="h-screen">
             <div className="p-20">
                 <div>
-                    <h1 className="flex justify-center about_me lg:text-5xl pb-20">Project example</h1>
+                    <h1 className="flex justify-center lg:text-5xl pb-20 font-bold">Project example</h1>
                 </div>
 
                 <div className="px-20 flex">
                     <img className='' src={img} />
-                    <div className='flex grow pl-20 passionate lg:text-xl'>
+                    <div className='flex grow pl-20  lg:text-xl'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar dictum enim a vulputate. Curabitur ac dictum diam. Donec vel urna enim. Cras sed tellus lectus. Etiam dapibus sagittis tellus, at condimentum purus mattis sed. Phasellus dapibus finibus interdum.
 
                         </p>
@@ -66,7 +66,7 @@ export default function Projects() {
                         !isHoveringProblem &&
                         <div
                             onMouseOver={mouseOverProblem}
-                            className='bg-grey flex flex-col justify-center items-center p-5 basis-full grow rounded-lg text-2xl about_me'
+                            className='bg-grey flex flex-col justify-center items-center p-5 basis-full grow rounded-lg text-2xl font-semibold'
                         >
                             <span>The Problem</span>
                         </div>
@@ -89,7 +89,7 @@ export default function Projects() {
                         !isHoveringConcept &&
                         <div
                             onMouseOver={mouseOverConcept}
-                            className='bg-grey flex flex-col justify-center items-center p-5  basis-full grow rounded-lg text-2xl about_me'
+                            className='bg-grey flex flex-col justify-center items-center p-5  basis-full grow rounded-lg text-2xl font-semibold'
                         >
                             <span>Concept</span>
                         </div>
@@ -109,7 +109,7 @@ export default function Projects() {
                         !isHoveringObstacles &&
                         <div
                             onMouseOver={mouseOverObstacles}
-                            className='bg-grey flex flex-col justify-center items-center p-5  basis-full grow rounded-lg text-2xl about_me'
+                            className='bg-grey flex flex-col justify-center items-center p-5  basis-full grow rounded-lg text-2xl font-semibold'
                         >
                             <span>Key obstacles</span>
                         </div>
@@ -129,7 +129,7 @@ export default function Projects() {
                         !isHoveringSolution &&
                         <div
                             onMouseOver={mouseOverSolution}
-                            className='bg-grey flex flex-col justify-center items-center p-5 basis-full grow rounded-lg text-2xl about_me'
+                            className='bg-grey flex flex-col justify-center items-center p-5 basis-full grow rounded-lg text-2xl font-semibold'
                         >
                             <span>Solution</span>
                         </div>
@@ -145,14 +145,14 @@ export default function Projects() {
                     }
                 </div>
                 <div className='flex justify-evenly items-center lg:h-40 pt-10'>
-                    <div className=' w-full flex justify-center'>
-                        <Link className='py-5 px-16 bg-grey rounded-lg flex justify-center text-xl about_me font-bold' to='https://local-services.netlify.app/'>Website link</Link>
+                    <div className='w-full flex justify-center font-semibold'>
+                        <Link className='py-5 px-16 bg-grey rounded-lg flex justify-center text-xl' to='https://local-services.netlify.app/'>Website link</Link>
+                    </div>
+                    <div className='py-5 w-full flex justify-center'>
+                        <Link className='py-5 px-16 bg-grey rounded-lg flex justify-center text-xl' to='https://github.com/lexasv97/project3-client'>GitHub - client</Link>
                     </div>
                     <div className='py-5  w-full flex justify-center'>
-                        <Link className='py-5 px-16 bg-grey rounded-lg flex justify-center text-xl about_me' to='https://github.com/lexasv97/project3-client'>GitHub - client</Link>
-                    </div>
-                    <div className='py-5  w-full flex justify-center'>
-                        <Link className='py-5 px-16 bg-grey rounded-lg flex justify-center text-xl about_me' to='https://github.com/lexasv97/project3-server'>GitHub - server</Link>
+                        <Link className='py-5 px-16 bg-grey rounded-lg flex justify-center text-xl' to='https://github.com/lexasv97/project3-server'>GitHub - server</Link>
                     </div>
                 </div>
 

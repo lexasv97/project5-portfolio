@@ -18,9 +18,7 @@ export default {
       'black': "#000000"
     },
     fontFamily: {
-      vazirmatn: ['Vazirmatn', "sans-serif"],
-      montserratlight: ['Montserrat', "sans-serif"]
-    },
+      vazirmatn: ['Vazirmatn', "sans-serif"] },
     extend: {
       backgroundImage: {
         banner: "./src/assets/background.svg"
