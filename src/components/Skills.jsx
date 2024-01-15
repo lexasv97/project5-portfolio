@@ -1,81 +1,99 @@
-import Aos from "aos";
-import { useEffect } from "react";
-import { FaReact, FaNodeJs, FaHtml5 } from "react-icons/fa";
-import { SiRedux, SiTailwindcss, SiExpress, SiPostman, SiMongodb, SiNextdotjs } from "react-icons/si";
-import { IoLogoJavascript } from "react-icons/io5";
-import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
 
+export default function Skills() {
 
-const Skills = () => {
-
-  const skills = [
+  const categories = [
     {
-      img: <IoLogoJavascript className=""/>,
-      skill: 'JavaScript',
+      category: 'Languages',
+      skills: [
+        "JavaScript", "TypeScript"
+      ]
     },
     {
-      icon: <FaNodeJs className=""/>,
-      skill: 'Node JS',
+      category: 'Core',
+      skills: [
+        "HTML/HTML5", "CSS/CSS3", "DOM", "Async/Await", "OOP"
+      ]
     },
     {
-      icon: <SiExpress className=""/>,
-      skill: 'Express JS',
+      category: 'Databases',
+      skills: [
+        "MongoDB", "PostgreSQL", "NoSQL"
+      ]
     },
     {
-      icon: <FaReact className="" />,
-      skill: 'React',
+      category: 'Libraries',
+      skills: [
+        "React", "Redux", "Mongoose ODM", "Immutable.js", "jQuery", "Material UI", "axios"
+      ]
     },
     {
-      icon: <SiTailwindcss className="" />,
-      skill: 'Tailwind CSS',
+      category: 'Frameworks',
+      skills: [
+        "Express.js", "Next.js", "Tailwind CSS", "Jest.js"
+      ]
     },
     {
-      img: <FaHtml5 className=""/>,
-      skill: 'HTML',
+      category: 'Environments',
+      skills: [
+        "Node.js"
+      ]
     },
     {
-      img: <BiLogoTypescript className=""/>,
-      skill: 'Typescript',
+      category: 'Cloud',
+      skills: [
+        "AWS"
+      ]
     },
     {
-      img: <SiMongodb className=""/>,
-      skill: 'MongoDB',
+      category: 'Version Control',
+      skills: [
+        "Git"
+      ]
     },
-    {
-      icon: <SiRedux className=""/>,
-      skill: 'Redux',
-    },
-    {
-      icon: <SiNextdotjs className=""/>,
-      skill: 'Next JS',
-    },
-    {
-      img: <SiPostman className=""/>,
-      skill: 'Postman',
-    },
-    {
-      img: <BiLogoPostgresql className=""/>,
-      skill: 'PostgreSQL',
-    }
   ];
 
-  return (
-    <div id="Skills" className="p-20 justify-center max-w-6xl mx-auto">
-      <h1 data-aos="fade-right" className="flex justify-center text-[52px] font-semibold mb-20 leading-normal uppercase text-purple">Skills</h1>
+  const other = {
+    category: "Other",
+    skills: [
+      "REST APIs", "JWT", "Postman", "JSX", "Vite", "Webpack", "JSON", "AJAX"
+    ]
+  }
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        {skills.map((skill) => {
-          return (
-            <div className="flex space-x-2 items-center">
-              {skill.icon && <div className="text-2xl">{skill.icon}</div>}
-              {skill.img && <img src={skill.img} className="h-6 w-6" alt=""></img>}
-              <div className=" text-gray-500">{skill.skill}</div>
-            </div>
-          )
-        })}
+  return (
+    <div className="h-screen bg-grey">
+      <div className="p-20">
+        <div>
+          <h1 className="flex justify-center about_me lg:text-5xl pb-20">Skills</h1>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {categories.map((cat) => {
+            return (
+              <div className="flex flex-col">
+                <h2 className="categories text-3xl pb-10 flex justify-center">{cat.category}</h2>
+                {
+                  cat.skills.map((skill) => {
+                    return (
+                        <span className="passionate text-xl lg:pl-32">{skill}</span>
+                    )
+                  })
+                }
+              </div>
+            )
+          })}
+        </div>
+        <div>
+          <h2 className="categories text-3xl pb-10 flex justify-center">{other.category}</h2>
+          <div className="flex justify-evenly px-40">
+            {
+              other.skills.map((skill) => {
+                return (
+                    <span className="passionate text-xl">{skill}</span>
+                )
+              })
+            }
+          </div>
+        </div>
       </div>
     </div>
   );
 }
-
-export default Skills

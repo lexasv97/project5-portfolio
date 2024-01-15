@@ -2,49 +2,44 @@ import { AiFillGithub } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { BsFacebook } from 'react-icons/bs'
 import { FiTwitter } from 'react-icons/fi';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
-import img from '../assets/profile.jpg'
+import img from '../assets/alex.svg'
 import { Link } from "react-router-dom";
+import background from "../assets/background.svg"
 
-const Banner = () => {
-
-    useEffect(() => {
-        AOS.init({
-            easing: 'ease-out-quart',
-            delay: 0,
-            duration: 750
-        })
-    }, [])
+export default function Banner() {
 
     return (
-        <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
-            <div className=" h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-purple">
-                <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal uppercase">ALEKSEI <span className="text-pink">SELETCKII</span></h1>
-                <p data-aos="fade-left"><span className='font-bold'>Software Engineer</span> - TypeScript | React | JavaScript | Express | Node.js | MongoDB | PostgreSQL</p>
-                <div className="flex mt-8 gap-2">
-                    <div className="flex items-center justify-center">
-                        <div data-aos="fade-up" className="flex space-x-2">
-                            <Link to="https://github.com/lexasv97" className="text-purple hover:text-pink rounded-full glow p-2" target={'_blank'}>
-                                <AiFillGithub className="text-[28px]" />
-                            </Link>
-                            <Link to="https://www.linkedin.com/in/aleksei-seletckii/" className="text-purple hover:text-pink rounded-full glow p-2" target={'_blank'}>
-                                <FaLinkedinIn className="text-[28px]" />
-                            </Link>
-                            <Link to="https://twitter.com/ASeletckii" className="text-purple hover:text-pink rounded-full glow p-2" target={'_blank'}>
-                                <FiTwitter className="text-[28px]" />
-                            </Link>
-                            <Link to="https://www.facebook.com/lexasv97/" className="text-purple hover:text-pink rounded-full glow p-2" target={'_blank'}>
-                                <BsFacebook className="text-[28px]" />
-                            </Link>
-                        </div>
+        <div style={{
+            backgroundImage: `url(${background})`,
+        }}
+            className="bg-cover bg-center h-screen pt-20 gap-5 flex justify-between text-white">
+            <div className="pl-32 w-7/12 flex flex-col justify-between py-20">
+                <div className="flex flex-col font-vazirmatn lg:text-9xl">
+                    <span className='text-left'>ALEKSEI</span>
+                    <div className='text-right'>
+                        <span >SELETCKII</span>
+                        <p className='lg:text-2xl pt-10 lg:pl-52 flex justify-start'>Software Engineer - TypeScript | React | JavaScript | ExpressJS | NodeJS | NextJS | MongoDB | PostgreSQL</p>
                     </div>
                 </div>
+
+                <div className="w-full flex justify-between">
+                    <Link to="https://github.com/lexasv97" className=" hover:text-pink rounded-full glow p-2" target={'_blank'}>
+                        <AiFillGithub className="lg:text-4xl" />
+                    </Link>
+                    <Link to="https://www.linkedin.com/in/aleksei-seletckii/" className="hover:text-pink rounded-full glow p-2" target={'_blank'}>
+                        <FaLinkedinIn className="lg:text-4xl" />
+                    </Link>
+                    <Link to="https://twitter.com/ASeletckii" className="hover:text-pink rounded-full glow p-2" target={'_blank'}>
+                        <FiTwitter className="lg:text-4xl" />
+                    </Link>
+                    <Link to="https://www.facebook.com/lexasv97/" className="hover:text-pink rounded-full glow p-2" target={'_blank'}>
+                        <BsFacebook className="lg:text-4xl" />
+                    </Link>
+                </div>
             </div>
-            <img data-aos="fade-up" src={img} width={290} height={290} className='rounded-full border-2 p-1 border-pink img_glow' alt="" />
+            <div className='flex items-end'>
+                <img src={img} className='h-full' />
+            </div>
         </div>
     )
 }
-
-export default Banner

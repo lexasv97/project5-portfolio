@@ -13,14 +13,19 @@ export default {
   ],
   theme: {
     colors: {
-      'champ': "#F9DEC9",
-      'purple': "#210124",
-      'pink': "#F45866",
-      'green': "#048A81",
-      'brown': "#896A67",
+      'grey': "#E1E3E4",
       'white': "#ffffff",
       'black': "#000000"
     },
+    fontFamily: {
+      vazirmatn: ['Vazirmatn', "sans-serif"],
+      montserratlight: ['Montserrat', "sans-serif"]
+    },
+    extend: {
+      backgroundImage: {
+        banner: "./src/assets/background.svg"
+      }
+    }
   },
   plugins: [],
 }

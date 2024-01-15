@@ -1,5 +1,3 @@
-
-import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import About from './components/About'
 import Skills from './components/Skills'
@@ -10,14 +8,12 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <div className='bg-champ'>
-        <Navbar />
+    <div className=''>
         <Banner />
         <About />
         <Skills />
         <Projects />
         <Contacts />
-        <Footer />
     </div>
   )
 }

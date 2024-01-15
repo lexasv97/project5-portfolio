@@ -2,9 +2,9 @@ import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { BsFacebook } from "react-icons/bs"
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+export default function Footer () {
     return (
-        <footer className="bg-pink lg:px-40 px-4 py-20">
+        <footer className="bg-pink lg:px-40 px-4 py-10">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
                 <div className="">
                     <h2 className="text-[22px] font-semibold text-purple py-2 uppercase">Languages</h2>
@@ -55,5 +55,3 @@ const Footer = () => {
 
     );
 };
-
-export default Footer;
