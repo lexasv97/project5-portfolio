@@ -23,7 +23,7 @@ export default function Skills() {
     {
       category: 'Libraries',
       skills: [
-        "React", "Redux", "Mongoose ODM", "Immutable.js", "jQuery", "Material UI", "axios"
+        "React", "Redux", "Mongoose ODM", "Immutable.js", "jQuery", "axios"
       ]
     },
     {
@@ -63,7 +63,7 @@ export default function Skills() {
     <div className="h-screen bg-grey">
       <div className="p-20">
         <div>
-          <h1 className="flex justify-center about_me lg:text-5xl pb-20">Skills</h1>
+          <h1 className="flex justify-center about_me lg:text-5xl pb-10">Skills</h1>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {categories.map((cat) => {
@@ -73,7 +73,7 @@ export default function Skills() {
                 {
                   cat.skills.map((skill) => {
                     return (
-                        <span className="passionate text-xl lg:pl-32">{skill}</span>
+                        <span className="passionate text-xl lg:px-24">{skill}</span>
                     )
                   })
                 }
