@@ -61,7 +61,7 @@ export default function Skills() {
 
   return (
     <div className="lg:h-screen bg-grey">
-      <div className="p-20">
+      <div className="lg:p-20 p-10">
         <div>
           <h1 className="flex justify-center font-black lg:text-5xl text-3xl pb-10">Skills</h1>
         </div>
@@ -83,7 +83,7 @@ export default function Skills() {
         </div>
         <div>
           <h2 className="font-black lg:text-3xl text-xl p-10 flex justify-center">{other.category}</h2>
-          <div className="flex justify-evenly px-40">
+          <div className="flex justify-evenly lg:px-40 flex-wrap">
             {
               other.skills.map((skill) => {
                 return (

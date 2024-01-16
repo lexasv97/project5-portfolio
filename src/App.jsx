@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <div className=''>
+    <div className='w-full'>
         <Banner />
         <div className='montserrat'>
         <About />

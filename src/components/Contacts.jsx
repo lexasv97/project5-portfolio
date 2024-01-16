@@ -11,7 +11,7 @@ export default function Contacts() {
       backgroundImage: `url(${background})`,
     }}
       className="bg-cover bg-center lg:h-screen w-full grid lg:grid-cols-2 text-white">
-      <div className="p-20">
+      <div className="lg:p-20 p-10">
         <div className="flex flex-col justify-center items-center basis-full grow h-full">
           <h1 className='lg:text-5xl pb-20 font-bold text-3xl'>Let's get in touch</h1>
           <ul className="flex flex-col justify-between basis-full grow text-2xl">

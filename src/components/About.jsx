@@ -3,12 +3,12 @@ import img from '../assets/alex2.svg'
 export default function About() {
     return (
         <div className="lg:h-screen">
-            <div className='p-20 flex lg:flex-row flex-col'>
+            <div className='lg:p-20 p-10 flex lg:flex-row flex-col'>
                 <div className='flex basis-1/2'>
                     <img src={img} />
                 </div>
                 <div className='flex flex-col justify-evenly basis-3/4 lg:pl-20'>
-                    <div className='flex justify-center lg:text-5xl text-3xl font-black'>
+                    <div className='flex justify-center lg:text-5xl text-3xl font-black lg:py-10 py-5'>
                         <h1>About me</h1>
                     </div>
                     <div className='grid gap-4 lg:text-xl'>
