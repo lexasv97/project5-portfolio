@@ -13,11 +13,11 @@ export default function Banner() {
             backgroundImage: `url(${background})`,
         }}
             className="bg-cover bg-center h-screen pt-20 gap-5 flex justify-between text-white">
-            <div className="pl-32 w-7/12 flex flex-col justify-between py-20">
+            <div className="lg:pl-32 lg:w-7/12 flex flex-col justify-between py-20">
                 <div className="flex flex-col">
-                    <span className='text-left font-vazirmatn lg:text-9xl'>ALEKSEI</span>
-                    <div className='text-right'>
-                        <span className='font-vazirmatn lg:text-9xl'>SELETCKII</span>
+                    <span className='text-left font-vazirmatn lg:text-9xl text-5xl'>ALEKSEI</span>
+                    <div className='text-right lg:pl-64'>
+                        <span className='font-vazirmatn lg:text-9xl text-5xl'>SELETCKII</span>
                         <p className='lg:text-2xl pt-10 text-left'>Software Engineer - TypeScript | React | JavaScript | ExpressJS | NodeJS | NextJS | MongoDB | PostgreSQL</p>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ export default function Banner() {
                     </Link>
                 </div>
             </div>
-            <div className='flex items-end'>
+            <div className='hidden md:flex items-end'>
                 <img src={img} className='h-full' />
             </div>
         </div>

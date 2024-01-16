@@ -10,10 +10,10 @@ export default function Contacts() {
     <div style={{
       backgroundImage: `url(${background})`,
     }}
-      className="bg-cover bg-center h-screen w-full grid grid-cols-2 text-white">
+      className="bg-cover bg-center lg:h-screen w-full grid lg:grid-cols-2 text-white">
       <div className="p-20">
         <div className="flex flex-col justify-center items-center basis-full grow h-full">
-          <h1 className='lg:text-5xl pb-20 font-bold'>Let's get in touch</h1>
+          <h1 className='lg:text-5xl pb-20 font-bold text-3xl'>Let's get in touch</h1>
           <ul className="flex flex-col justify-between basis-full grow text-2xl">
             <li>Aleksei Seletckii</li>
             <li><Link to="mailto: aleksei.s.webdev@gmail.com">alexey.sv.97@gmail.com</Link></li>
@@ -22,15 +22,15 @@ export default function Contacts() {
             <li><Link to="https://github.com/lexasv97">github.com/lexasv97</Link></li>
           </ul>
           <div className="flex justify-center box-border w-full text-3xl m-20 font-semibold">
-            <Link className="bg-opacity-40 bg-white px-20 py-4 rounded-lg hover:scale-125" to='https://docs.google.com/document/d/19NetbGfj24sNn-GowbYH010mx6TLfXRN0bdDIlIcjzc/edit?usp=sharing'>My resume</Link>
+            <Link className="bg-opacity-40 bg-white px-32 py-4 rounded-lg" to='https://docs.google.com/document/d/19NetbGfj24sNn-GowbYH010mx6TLfXRN0bdDIlIcjzc/edit?usp=sharing' target={'_blank'}>My resume</Link>
           </div>
         </div>
       </div>
       <div style={{
         backgroundImage: `url(${rectangle})`,
       }}
-        className=' bg-cover bg-center h-screen flex justify-end items-end'>
-        <img src={img} className="h-5/6" />
+        className=' bg-cover bg-center h-screen flex justify-end items-end hidden md:flex'>
+        <img src={img} className="" />
       </div>
     </div>
   )
