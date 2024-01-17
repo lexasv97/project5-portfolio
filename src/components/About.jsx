@@ -11,7 +11,7 @@ export default function About() {
                     <div className='flex justify-center lg:text-5xl text-3xl font-black lg:py-10 py-5'>
                         <h1>About me</h1>
                     </div>
-                    <div className='grid gap-4 lg:text-xl'>
+                    <div className='grid gap-4 lg:text-xl font-black'>
                         <p>Passionate Software Engineer, merging entrepreneurial insights with tech expertise. Graduated from Ironhack and holding a bachelor's in Computer Software Engineering from MIET, I'm driven by a track record of creating innovative web solutions using cutting-edge technologies.
                         </p>
                         <p>Before transitioning to web development, I founded and scaled Florabar Flower Studio, achieving a 30% margin and substantial sales growth. Leading a team of five and managing up to 80 couriers, I honed my problem-solving and leadership skills, crafting effective marketing strategies and designing software for e-commerce expansion.

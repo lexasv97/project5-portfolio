@@ -39,7 +39,7 @@ export default function Banner() {
             <div style={{
                 backgroundImage: `url(${img})`,
             }}
-                className='w-full lg:bg-cover object-cover lg:h-full h-5/6 object-right'>
+                className='w-full lg:bg-cover lg:h-full h-5/6 object-right'>
                 <div className='lg:hidden block pr-60 pl-10 text-l pt-16'>
                     <p className=''>Software Engineer - TypeScript | React | JavaScript | ExpressJS | NodeJS | NextJS | MongoDB | PostgreSQL</p>
                 </div>
