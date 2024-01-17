@@ -11,10 +11,30 @@ export default function Projects() {
 
 
     const projectLocal = {
-        problem: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar dictum enim a vulputate. Curabitur ac dictum diam. Donec vel urna enim. Cras sed tellus lectus. Etiam dapibus sagittis tellus, at condimentum purus ',
-        concept: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar dictum enim a vulputate. Curabitur ac dictum diam. Donec vel urna enim. Cras sed tellus lectus. Etiam dapibus sagittis tellus, at condimentum purus ',
-        obstacles: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar dictum enim a vulputate. Curabitur ac dictum diam. Donec vel urna enim. Cras sed tellus lectus. Etiam dapibus sagittis tellus, at condimentum purus ',
-        solution: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar dictum enim a vulputate. Curabitur ac dictum diam. Donec vel urna enim. Cras sed tellus lectus. Etiam dapibus sagittis tellus, at condimentum purus '
+        problem: (
+            <ul className='flex flex-col gap-2'>
+                <li>Many individuals in the US encounter challenges when trying to locate local service providers without disclosing their contact information and subsequently being bombarded with spam from numerous companies.</li>
+                <li>Extensive research indicates a widespread issue among people struggling to find service providers efficiently.</li>
+            </ul>
+        ),
+        concept: (
+            <ul className='flex flex-col gap-2'>
+                <li>The project is MVP of a platform for local service providers to showcase their offerings and for customers to discover the best services in their vicinity.,</li>
+                <li>Leveraging the power of Google Places API and Google Maps API, the application allows service providers to pinpoint their exact location on the map, facilitating easier discovery for customers</li>
+            </ul>
+        ),
+        obstacles: (
+            <ul className='flex flex-col gap-2'>
+                <li>Implementing Google Places API and Google Maps API presented key challenges, particularly in accurately determining longitude and latitude for service provider locations.</li>
+                <li>Overcoming the complexities of integrating these APIs was crucial to ensuring the seamless functioning of the mapping feature.</li>
+            </ul>
+        ),
+        solution: (
+            <ul className='flex flex-col gap-2'>
+                <li>The technology stack includes React, Node.js with Express, and MongoDB (MERN stack).</li>
+                <li>The mapping functionality enhances the user experience, making it simpler for customers to locate service providers based on their geographical proximity, thereby streamlining the process of finding relevant services.</li>
+            </ul>
+        )
     }
 
     const clickProblem = () => {
@@ -42,11 +62,12 @@ export default function Projects() {
                 <div className="lg:px-20 flex lg:flex-row flex-col justify-center items-center">
                     <img className='w-3/4 lg:w-1/5 lg:py-0 py-10' src={img} />
                     <div className='flex lg:text-xl basis-3/4 lg:pl-20'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar dictum enim a vulputate. Curabitur ac dictum diam. Donec vel urna enim. Cras sed tellus lectus. Etiam dapibus sagittis tellus, at condimentum purus mattis sed. Phasellus dapibus finibus interdum.
+                        <p>
+                            An MVP marketplace using React, Node.js, Express.js, MongoDB technologies (MERN stack) for services  with JWT auth, integrated Google Maps, Google places APIs and Tailwind styled.
                         </p>
                     </div>
                 </div>
-                <div className='flex lg:flex-row flex-col justify-between  pt-10 lg:h-80 box-border w-full'>
+                <div className='flex lg:flex-row flex-col justify-between  pt-10 lg:h-96 box-border w-full'>
                     {
                         !isProblemClicked &&
                         <button
@@ -61,9 +82,7 @@ export default function Projects() {
                         <div
                             className='bg-grey flex flex-col justify-center items-center p-5 basis-full grow rounded-lg'
                         >
-                            <div>
-                                {projectLocal.problem}
-                            </div>
+                            {projectLocal.problem}
                         </div>
                     }
                     <div className="flex justify-center items-center basis-1/2 lg:rotate-0 rotate-90 py-5 lg:py-0">
@@ -121,7 +140,7 @@ export default function Projects() {
                         <div
                             className='bg-grey flex flex-col justify-center items-center p-5  basis-full grow rounded-lg'
                         >
-                            {projectLocal.problem}
+                            {projectLocal.solution}
                         </div>
                     }
                 </div>
