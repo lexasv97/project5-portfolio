@@ -43,7 +43,7 @@ export default function Banner() {
                 <div className='lg:hidden block pr-60 pl-10 text-l pt-16'>
                     <p className=''>Software Engineer - TypeScript | React | JavaScript | ExpressJS | NodeJS | NextJS | MongoDB | PostgreSQL</p>
                 </div>
-                <div className="lg:hidden text-4xl w-full flex justify-evenly items-end h-2/3">
+                <div className="lg:hidden text-4xl w-full flex justify-evenly items-end h-3/5">
                     <Link to="https://github.com/lexasv97" className="hover:scale-150 rounded-full glow p-2" target={'_blank'}>
                         <AiFillGithub />
                     </Link>
