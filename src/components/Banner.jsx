@@ -1,7 +1,7 @@
 import { AiFillGithub } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { BsFacebook } from 'react-icons/bs'
-import { FiTwitter } from 'react-icons/fi';
+import { BsTwitterX } from "react-icons/bs";
 import img from '../assets/alex.svg'
 import { Link } from "react-router-dom";
 import background from "../assets/background.svg"
@@ -29,7 +29,7 @@ export default function Banner() {
                         <FaLinkedinIn />
                     </Link>
                     <Link to="https://twitter.com/ASeletckii" className="hover:scale-150 rounded-full glow p-2" target={'_blank'}>
-                        <FiTwitter />
+                        <BsTwitterX />
                     </Link>
                     <Link to="https://www.facebook.com/lexasv97/" className="hover:scale-150 rounded-full glow p-2" target={'_blank'}>
                         <BsFacebook />
@@ -51,7 +51,7 @@ export default function Banner() {
                         <FaLinkedinIn />
                     </Link>
                     <Link to="https://twitter.com/ASeletckii" className="hover:scale-150 rounded-full glow p-2" target={'_blank'}>
-                        <FiTwitter />
+                        <BsTwitterX />
                     </Link>
                     <Link to="https://www.facebook.com/lexasv97/" className="hover:scale-150 rounded-full glow p-2" target={'_blank'}>
                         <BsFacebook />
